@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1B2FEB281E378800012372 /* weixinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B2FEA281E378800012372 /* weixinPage.swift */; };
+		3B1B2FED281E4BAD00012372 /* singleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B2FEC281E4BAD00012372 /* singleMessage.swift */; };
+		3B1B2FEF281E4D0300012372 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B2FEE281E4D0300012372 /* Data.swift */; };
+		3B1B2FF1281E595900012372 /* linshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B2FF0281E595900012372 /* linshi.swift */; };
+		3B8590B827FF25E900187EE6 /* wechatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8590B727FF25E900187EE6 /* wechatApp.swift */; };
+		3B8590BA27FF25E900187EE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8590B927FF25E900187EE6 /* ContentView.swift */; };
+		3B8590BC27FF25ED00187EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8590BB27FF25ED00187EE6 /* Assets.xcassets */; };
+		3B8590BF27FF25ED00187EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8590BE27FF25ED00187EE6 /* Preview Assets.xcassets */; };
+		3B8590C927FF25ED00187EE6 /* wechatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8590C827FF25ED00187EE6 /* wechatTests.swift */; };
+		3B8590D327FF25ED00187EE6 /* wechatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8590D227FF25ED00187EE6 /* wechatUITests.swift */; };
+		3B8590D527FF25ED00187EE6 /* wechatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8590D427FF25ED00187EE6 /* wechatUITestsLaunchTests.swift */; };
+		3BADAA0B282F99E9004A8CFF /* tongxunluPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADAA0A282F99E9004A8CFF /* tongxunluPage.swift */; };
+		3BADAA0D282F9CD1004A8CFF /* faxianPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADAA0C282F9CD1004A8CFF /* faxianPage.swift */; };
+		3BADAA0F282FCD16004A8CFF /* woPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADAA0E282FCD16004A8CFF /* woPage.swift */; };
+		3BADAA1128309A87004A8CFF /* pengYouQuanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADAA1028309A87004A8CFF /* pengYouQuanView.swift */; };
+		3BADAA1328311BE5004A8CFF /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADAA1228311BE5004A8CFF /* PreferenceKeys.swift */; };
+		3BADAA5028352B38004A8CFF /* pinglunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADAA4F28352B38004A8CFF /* pinglunView.swift */; };
+		3BD634302822A8B200599A20 /* chatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6342F2822A8B200599A20 /* chatPage.swift */; };
+		3BD634322822C55800599A20 /* testTabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD634312822C55800599A20 /* testTabview.swift */; };
+		3BD63434282383F000599A20 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD63433282383F000599A20 /* TabBar.swift */; };
+		3BD63436282384AA00599A20 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD63435282384AA00599A20 /* TabData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8590C527FF25ED00187EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8590AC27FF25E900187EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8590B327FF25E900187EE6;
+			remoteInfo = wechat;
+		};
+		3B8590CF27FF25ED00187EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8590AC27FF25E900187EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8590B327FF25E900187EE6;
+			remoteInfo = wechat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B1B2FEA281E378800012372 /* weixinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weixinPage.swift; sourceTree = "<group>"; };
+		3B1B2FEC281E4BAD00012372 /* singleMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleMessage.swift; sourceTree = "<group>"; };
+		3B1B2FEE281E4D0300012372 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3B1B2FF0281E595900012372 /* linshi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linshi.swift; sourceTree = "<group>"; };
+		3B8590B427FF25E900187EE6 /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8590B727FF25E900187EE6 /* wechatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wechatApp.swift; sourceTree = "<group>"; };
+		3B8590B927FF25E900187EE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B8590BB27FF25ED00187EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8590BE27FF25ED00187EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B8590C427FF25ED00187EE6 /* wechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8590C827FF25ED00187EE6 /* wechatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wechatTests.swift; sourceTree = "<group>"; };
+		3B8590CE27FF25ED00187EE6 /* wechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8590D227FF25ED00187EE6 /* wechatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wechatUITests.swift; sourceTree = "<group>"; };
+		3B8590D427FF25ED00187EE6 /* wechatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wechatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BADAA0A282F99E9004A8CFF /* tongxunluPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tongxunluPage.swift; sourceTree = "<group>"; };
+		3BADAA0C282F9CD1004A8CFF /* faxianPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faxianPage.swift; sourceTree = "<group>"; };
+		3BADAA0E282FCD16004A8CFF /* woPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woPage.swift; sourceTree = "<group>"; };
+		3BADAA1028309A87004A8CFF /* pengYouQuanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pengYouQuanView.swift; sourceTree = "<group>"; };
+		3BADAA1228311BE5004A8CFF /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		3BADAA4F28352B38004A8CFF /* pinglunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinglunView.swift; sourceTree = "<group>"; };
+		3BD6342F2822A8B200599A20 /* chatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatPage.swift; sourceTree = "<group>"; };
+		3BD634312822C55800599A20 /* testTabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTabview.swift; sourceTree = "<group>"; };
+		3BD63433282383F000599A20 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		3BD63435282384AA00599A20 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8590B127FF25E900187EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8590C127FF25ED00187EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8590CB27FF25ED00187EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8590AB27FF25E900187EE6 = {
+			isa = PBXGroup;
+			children = (
+				3B8590B627FF25E900187EE6 /* wechat */,
+				3B8590C727FF25ED00187EE6 /* wechatTests */,
+				3B8590D127FF25ED00187EE6 /* wechatUITests */,
+				3B8590B527FF25E900187EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8590B527FF25E900187EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8590B427FF25E900187EE6 /* wechat.app */,
+				3B8590C427FF25ED00187EE6 /* wechatTests.xctest */,
+				3B8590CE27FF25ED00187EE6 /* wechatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8590B627FF25E900187EE6 /* wechat */ = {
+			isa = PBXGroup;
+			children = (
+				3B8590B727FF25E900187EE6 /* wechatApp.swift */,
+				3B8590B927FF25E900187EE6 /* ContentView.swift */,
+				3BD63433282383F000599A20 /* TabBar.swift */,
+				3B1B2FEA281E378800012372 /* weixinPage.swift */,
+				3BADAA0A282F99E9004A8CFF /* tongxunluPage.swift */,
+				3BADAA0C282F9CD1004A8CFF /* faxianPage.swift */,
+				3BADAA0E282FCD16004A8CFF /* woPage.swift */,
+				3BADAA1028309A87004A8CFF /* pengYouQuanView.swift */,
+				3BADAA4F28352B38004A8CFF /* pinglunView.swift */,
+				3BD6342F2822A8B200599A20 /* chatPage.swift */,
+				3B1B2FEC281E4BAD00012372 /* singleMessage.swift */,
+				3BADAA1428312400004A8CFF /* Model */,
+				3B1B2FF0281E595900012372 /* linshi.swift */,
+				3BD634312822C55800599A20 /* testTabview.swift */,
+				3B8590BB27FF25ED00187EE6 /* Assets.xcassets */,
+				3B8590BD27FF25ED00187EE6 /* Preview Content */,
+			);
+			path = wechat;
+			sourceTree = "<group>";
+		};
+		3B8590BD27FF25ED00187EE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B8590BE27FF25ED00187EE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B8590C727FF25ED00187EE6 /* wechatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8590C827FF25ED00187EE6 /* wechatTests.swift */,
+			);
+			path = wechatTests;
+			sourceTree = "<group>";
+		};
+		3B8590D127FF25ED00187EE6 /* wechatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8590D227FF25ED00187EE6 /* wechatUITests.swift */,
+				3B8590D427FF25ED00187EE6 /* wechatUITestsLaunchTests.swift */,
+			);
+			path = wechatUITests;
+			sourceTree = "<group>";
+		};
+		3BADAA1428312400004A8CFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BD63435282384AA00599A20 /* TabData.swift */,
+				3B1B2FEE281E4D0300012372 /* Data.swift */,
+				3BADAA1228311BE5004A8CFF /* PreferenceKeys.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8590B327FF25E900187EE6 /* wechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8590D827FF25ED00187EE6 /* Build configuration list for PBXNativeTarget "wechat" */;
+			buildPhases = (
+				3B8590B027FF25E900187EE6 /* Sources */,
+				3B8590B127FF25E900187EE6 /* Frameworks */,
+				3B8590B227FF25E900187EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wechat;
+			productName = wechat;
+			productReference = 3B8590B427FF25E900187EE6 /* wechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B8590C327FF25ED00187EE6 /* wechatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8590DB27FF25ED00187EE6 /* Build configuration list for PBXNativeTarget "wechatTests" */;
+			buildPhases = (
+				3B8590C027FF25ED00187EE6 /* Sources */,
+				3B8590C127FF25ED00187EE6 /* Frameworks */,
+				3B8590C227FF25ED00187EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8590C627FF25ED00187EE6 /* PBXTargetDependency */,
+			);
+			name = wechatTests;
+			productName = wechatTests;
+			productReference = 3B8590C427FF25ED00187EE6 /* wechatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B8590CD27FF25ED00187EE6 /* wechatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8590DE27FF25ED00187EE6 /* Build configuration list for PBXNativeTarget "wechatUITests" */;
+			buildPhases = (
+				3B8590CA27FF25ED00187EE6 /* Sources */,
+				3B8590CB27FF25ED00187EE6 /* Frameworks */,
+				3B8590CC27FF25ED00187EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8590D027FF25ED00187EE6 /* PBXTargetDependency */,
+			);
+			name = wechatUITests;
+			productName = wechatUITests;
+			productReference = 3B8590CE27FF25ED00187EE6 /* wechatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8590AC27FF25E900187EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3B8590B327FF25E900187EE6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3B8590C327FF25ED00187EE6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3B8590B327FF25E900187EE6;
+					};
+					3B8590CD27FF25ED00187EE6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3B8590B327FF25E900187EE6;
+					};
+				};
+			};
+			buildConfigurationList = 3B8590AF27FF25E900187EE6 /* Build configuration list for PBXProject "wechat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B8590AB27FF25E900187EE6;
+			productRefGroup = 3B8590B527FF25E900187EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8590B327FF25E900187EE6 /* wechat */,
+				3B8590C327FF25ED00187EE6 /* wechatTests */,
+				3B8590CD27FF25ED00187EE6 /* wechatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8590B227FF25E900187EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8590BF27FF25ED00187EE6 /* Preview Assets.xcassets in Resources */,
+				3B8590BC27FF25ED00187EE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8590C227FF25ED00187EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8590CC27FF25ED00187EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8590B027FF25E900187EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BADAA0B282F99E9004A8CFF /* tongxunluPage.swift in Sources */,
+				3BD63434282383F000599A20 /* TabBar.swift in Sources */,
+				3B1B2FEB281E378800012372 /* weixinPage.swift in Sources */,
+				3BADAA1128309A87004A8CFF /* pengYouQuanView.swift in Sources */,
+				3BADAA5028352B38004A8CFF /* pinglunView.swift in Sources */,
+				3BADAA0F282FCD16004A8CFF /* woPage.swift in Sources */,
+				3BADAA0D282F9CD1004A8CFF /* faxianPage.swift in Sources */,
+				3B1B2FEF281E4D0300012372 /* Data.swift in Sources */,
+				3BADAA1328311BE5004A8CFF /* PreferenceKeys.swift in Sources */,
+				3BD634302822A8B200599A20 /* chatPage.swift in Sources */,
+				3B1B2FF1281E595900012372 /* linshi.swift in Sources */,
+				3B1B2FED281E4BAD00012372 /* singleMessage.swift in Sources */,
+				3B8590BA27FF25E900187EE6 /* ContentView.swift in Sources */,
+				3BD63436282384AA00599A20 /* TabData.swift in Sources */,
+				3BD634322822C55800599A20 /* testTabview.swift in Sources */,
+				3B8590B827FF25E900187EE6 /* wechatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8590C027FF25ED00187EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8590C927FF25ED00187EE6 /* wechatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8590CA27FF25ED00187EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8590D527FF25ED00187EE6 /* wechatUITestsLaunchTests.swift in Sources */,
+				3B8590D327FF25ED00187EE6 /* wechatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8590C627FF25ED00187EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8590B327FF25E900187EE6 /* wechat */;
+			targetProxy = 3B8590C527FF25ED00187EE6 /* PBXContainerItemProxy */;
+		};
+		3B8590D027FF25ED00187EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8590B327FF25E900187EE6 /* wechat */;
+			targetProxy = 3B8590CF27FF25ED00187EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B8590D627FF25ED00187EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B8590D727FF25ED00187EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8590D927FF25ED00187EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wechat/Preview Content\"";
+				DEVELOPMENT_TEAM = YTKWN25STW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WZX.wechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B8590DA27FF25ED00187EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wechat/Preview Content\"";
+				DEVELOPMENT_TEAM = YTKWN25STW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WZX.wechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B8590DC27FF25ED00187EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTKWN25STW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WZX.wechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wechat.app/wechat";
+			};
+			name = Debug;
+		};
+		3B8590DD27FF25ED00187EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTKWN25STW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WZX.wechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wechat.app/wechat";
+			};
+			name = Release;
+		};
+		3B8590DF27FF25ED00187EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTKWN25STW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WZX.wechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wechat;
+			};
+			name = Debug;
+		};
+		3B8590E027FF25ED00187EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTKWN25STW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WZX.wechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wechat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8590AF27FF25E900187EE6 /* Build configuration list for PBXProject "wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8590D627FF25ED00187EE6 /* Debug */,
+				3B8590D727FF25ED00187EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8590D827FF25ED00187EE6 /* Build configuration list for PBXNativeTarget "wechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8590D927FF25ED00187EE6 /* Debug */,
+				3B8590DA27FF25ED00187EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8590DB27FF25ED00187EE6 /* Build configuration list for PBXNativeTarget "wechatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8590DC27FF25ED00187EE6 /* Debug */,
+				3B8590DD27FF25ED00187EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8590DE27FF25ED00187EE6 /* Build configuration list for PBXNativeTarget "wechatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8590DF27FF25ED00187EE6 /* Debug */,
+				3B8590E027FF25ED00187EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B8590AC27FF25E900187EE6 /* Project object */;
+}
